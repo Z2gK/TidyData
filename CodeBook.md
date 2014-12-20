@@ -1,9 +1,12 @@
 # TidyData Code Book
 ====================
 
+## Overview
+
+The file tidyData.txt contains all the headers shown below. All variables hold numeric data type except for SubjectID and Activity. The tGravityAcc-std()-Z variable in a particular row, for example, will hold the average of all observations of tGravityAcc-std()-Z for the corresponding subject performing the particular activity denoted by the Activity factor. All numeric data in tidyData.txt are average data for the various variables, for all subject/activity combinations.
+
 SubjectID
 Activity
-
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
@@ -83,3 +86,6 @@ fBodyBodyGyroMag-meanFreq()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 fBodyBodyGyroJerkMag-meanFreq()
+
+## Transformations performed on original data
+
