@@ -89,3 +89,17 @@ fBodyBodyGyroJerkMag-meanFreq()
 
 ## Transformations performed on original data
 
+The following files were used to derive the tidied data set:
+
+1. UCI HAR Dataset\activity_labels.txt
+2. UCI HAR Dataset\features.txt
+3. UCI HAR Dataset\test\subject_test.txt
+4. UCI HAR Dataset\test\X_test.txt
+5. UCI HAR Dataset\test\y_test.txt
+6. UCI HAR Dataset\train\subject_train.txt
+7. UCI HAR Dataset\train\X_train.txt
+8. UCI HAR Dataset\train\y_train.txt
+
+The subject IDs of the 2947 observations were stored in the subject_{test,train}.txt files while the activity labels were in the y_{test,train}.txt files. The activity labels were then converted to a more descriptive form. The required mean and std variables from the numerical data files X_{test,train}.txt were also extracted. These were eventually merged into a single data frame.
+
+Finally, using the ddply function from the plyr package, the means were computed for various combinations of subject and activities. The result was output to tidyData.txt.
