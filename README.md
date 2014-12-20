@@ -4,7 +4,7 @@ TidyData README
 Getting &amp; Cleaning Data Course Project
 
 ## Usage instructions
-1. With all the files in the repository in the current directory, extract the zip archive "getdata_projectfiles_UCI HAR Dataset.zip". In Linux, simply run "unzip getdata_projectfiles_UCI HAR Dataset.txt" at the command line. This should produce the directory "UCI HAR Dataset" containing the data set.
+1. With all the files in the repository in the current directory, extract the zip archive "getdata_projectfiles_UCI HAR Dataset.zip". In Linux, simply run "unzip getdata_projectfiles_UCI HAR Dataset.txt" at the command line. This should produce the directory "UCI HAR Dataset", which contains the data sets.
 2. Start R.
 3. Run the command source("run_analysis.R") at the R prompt. This should produce tidyData.txt in the current directory.
 
