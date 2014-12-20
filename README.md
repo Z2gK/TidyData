@@ -9,10 +9,10 @@ Getting &amp; Cleaning Data Course Project
 3. Run the command source("run_analysis.R") at the R prompt. This should produce tidyData.txt in the current directory.
 
 ### README.md
-This is the file you are reading now. It provides a brief description of all the files in this repository and how they work together
+This is the file you are reading. It provides a brief description of all the files in this repository.
 
 ### run_analysis.R
-This file contains the R code for reading the data and distilling it into a "tidy" form
+This file contains the R code for reading the data and distilling it into a tidy form.
 
 ### tidyData.txt
 This file is the output from run_analysis.R and contains the tidied data. Each row holds the ID of the subject (1..30), the activity, and the mean of the selected variables for each subject/activity combination.
